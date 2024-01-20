@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 8vmin;
+    margin-bottom: 3vmin;
+}
+
+.helper{
+rich-black: #000814ff;
+oxford-blue: #001d3dff;
+yale-blue: #003566ff;
+mikado-yellow: #ffc300ff;
+gold: #ffd60aff;
+}
+
+
+body{
+    text-align: center;
+    justify-content: center;
+    background-color:#001d3dff;
+    color: #ffc300ff;
+}
+
+
+.outerContainer{
+    height: 70vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.innerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vmin;
+    width: 60vmin;
+    column-gap: 1.5vmin;
+}
+
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2vmin;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 53, 102, 0.418) ;
+    color: #ffc300ff;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 12vmin;
+
+}
+
+#resetButton{
+    font-size: 4vmin;
+    padding: 2vmin;
+    border: none;
+    border-radius: 2vmin;
+    color: #ffc300ff;
+    border: none;
+    border-radius: 2vmin;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+    background-color: rgba(0, 53, 102, 0.599);
+}
+
+#newGameButton{
+        font-size: 4vmin;
+        padding: 2vmin;
+        border: none;
+        border-radius: 2vmin;
+        color: #ffc300ff;
+        border: none;
+        border-radius: 2vmin;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    
+        background-color: rgba(0, 53, 102, 0.599);
+
+
+}
+
+#winnerId{
+    font-size: 8vmin;
+    font-family: cursive;
+    margin-top: 35vmin;
+    margin-bottom: 30vmin;
+}
+
+.winnerContainer{
+   
+}
+.outerBox{
+    color: #ffc300ff;
+}
+
+.display{
+    display: none;
+}
